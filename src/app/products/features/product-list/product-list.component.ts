@@ -1,5 +1,4 @@
-import { Component, inject } from '@angular/core';
-import { ProductsService } from '../data-access/products.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-product-list',
@@ -7,16 +6,8 @@ import { ProductsService } from '../data-access/products.service';
   imports: [],
   templateUrl: './product-list.component.html',
   styles: ``,
-  providers: [ProductsService]
 })
 
 export default class ProductListComponent {
-  private productService = inject(ProductsService);
-
-  constructor(){
-    this.productService.getProducts().subscribe((products)=>{
-      console.log(products);
-    })
-  }
 
 }
