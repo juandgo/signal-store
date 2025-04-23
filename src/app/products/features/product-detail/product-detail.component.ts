@@ -1,4 +1,3 @@
-// import { ProdcutsService } from './../data-access/products.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './product-detail.component.html',
   styles: ``
 })
-export class ProductDetailComponent {
-
-}
+export default class ProductDetailComponent {}

@@ -2,14 +2,14 @@
 // @import "tailwindcss";
 @use "tailwindcss";
 
-// @tailwind base;
-// @tailwind components;
-// @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root{
   color-scheme: dark light;
 }
 
 body{
-  background: black;
+  background: bg-gray-900;
 }
