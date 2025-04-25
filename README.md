@@ -1,3 +1,5 @@
+youtube course: https://www.youtube.com/watch?v=fy8K1t4CLS4&list=LL&index=1&t=5643s
+
 # SignalStore
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
